@@ -1,14 +1,10 @@
 # encountr
 
-A Clojure library designed to ... well, that part is up to you.
-
-## Usage
-
-FIXME
+A Clojure wrapper for the [5E API](https://fivee-api.com/#/home).
 
 ## License
 
-Copyright © 2018 FIXME
+Copyright © 2018 Matt Menzenski
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
