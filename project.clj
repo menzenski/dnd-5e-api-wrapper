@@ -1,6 +1,6 @@
 (defproject dnd5eapi "0.1.0"
   :description "A wrapper for the D&D 5E API ( http://www.dnd5eapi.co/ )"
-  :url "https://github.com/menzenski/encountr"
+  :url "https://github.com/menzenski/dnd-5e-api-wrapper"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.8.0"]

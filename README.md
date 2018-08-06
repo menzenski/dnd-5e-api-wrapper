@@ -1,6 +1,6 @@
 # D&D 5E API Wrapper
 
-[![Build Status](https://travis-ci.org/menzenski/encountr.svg?branch=develop)](https://travis-ci.org/menzenski/encountr) [![license](https://img.shields.io/github/license/menzenski/encountr.svg?style=flat)](https://github.com/menzenski/encountr/blob/develop/LICENSE.md)
+[![Build Status](https://travis-ci.org/menzenski/dnd-5e-api-wrapper.svg?branch=develop)](https://travis-ci.org/menzenski/dnd-5e-api-wrapper) [![license](https://img.shields.io/github/license/menzenski/dnd-5e-api-wrapper.svg?style=flat)](https://github.com/menzenski/dnd-5e-api-wrapper/blob/develop/LICENSE.md)
 
 A Clojure wrapper for the [D&D 5E API](http://www.dnd5eapi.co/).
 
