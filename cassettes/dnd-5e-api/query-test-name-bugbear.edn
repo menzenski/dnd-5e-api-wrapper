@@ -1,18 +1,19 @@
-{:calls [{:arg-key ["http://www.dnd5eapi.co/api/subraces" nil],
-          :return {:body "{\"count\":6,\"results\":[{\"name\":\"Hill Dwarf\",\"url\":\"http://www.dnd5eapi.co/api/subraces/1\"},{\"name\":\"High Elf\",\"url\":\"http://www.dnd5eapi.co/api/subraces/2\"},{\"name\":\"Lightfoot Halfling\",\"url\":\"http://www.dnd5eapi.co/api/subraces/3\"},{\"name\":\"Mountain Dwarf\",\"url\":\"http://www.dnd5eapi.co/api/subraces/4\"},{\"name\":\"Wood Elf\",\"url\":\"http://www.dnd5eapi.co/api/subraces/5\"},{\"name\":\"Dark Elf (Drow)\",\"url\":\"http://www.dnd5eapi.co/api/subraces/6\"}]}",
+{:calls [{:arg-key ["http://www.dnd5eapi.co/api/monsters"
+                    {:query-params {:name "Bugbear"}}],
+          :return {:body "{\"count\":1,\"results\":[{\"name\":\"Bugbear\",\"url\":\"http://www.dnd5eapi.co/api/monsters/57\"}]}",
                    :cached nil,
                    :chunked? false,
                    :headers #vcr-clj/clj-http-header-map
                    {"Access-Control-Allow-Origin" "*",
                     "Connection" "close",
-                    "Content-Length" "444",
+                    "Content-Length" "89",
                     "Content-Type" "application/json; charset=utf-8",
                     "Date" "Mon, 06 Aug 2018 03:28:11 GMT",
-                    "Etag" "W/\"1bc-UmXtMJasZdhoda94ZdrsVw\"",
+                    "Etag" "W/\"59-S/IJH3U/4Qi5bX6dfZr2OA\"",
                     "Server" "Cowboy",
                     "Via" "1.1 vegur",
                     "X-Powered-By" "Express"},
-                   :length 444,
+                   :length 89,
                    :orig-content-encoding nil,
                    :protocol-version {:major 1, :minor 1, :name "HTTP"},
                    :reason-phrase "OK",
@@ -22,4 +23,4 @@
                    :streaming? true,
                    :trace-redirects []},
           :var-name "clj-http.client/get"}],
- :recorded-at #inst "2018-08-06T03:28:11.121-00:00"}
+ :recorded-at #inst "2018-08-06T03:28:11.532-00:00"}

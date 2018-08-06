@@ -91,3 +91,16 @@
     (with-cassette :dnd-5e-api/resource-list-weapon-properties default-cassette-options
                    (let [response (encountr/get :weapon-properties)]
                      (is (= (:count response) (-> response :results count)))))))
+
+(deftest query-test
+  (testing "find monsters with name = \"Bugbear\""
+    (with-cassette :dnd-5e-api/query-test-name-bugbear default-cassette-options
+                   (let [search-results (encountr/get :monsters :params {:name "Bugbear"})]
+                     (is (= 1 (:count search-results) (-> search-results :results count)))))))
+
+(deftest path-test
+  (testing "get bugbear by id"
+    (with-cassette :dnd-5e-api/path-test-bugbear default-cassette-options
+                   (let [bugbear (encountr/get :monsters :id 57)]
+                     (is (map? bugbear))
+                     (is (= 13 (:constitution bugbear)))))))

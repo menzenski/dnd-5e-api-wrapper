@@ -4,4 +4,5 @@
 
 (defn get
   [resource & {:keys [id params]}]
-   (client/api-call :path [(name resource) id] :params params))
+  (client/api-call :path [(name resource) id]
+                   :params params))
