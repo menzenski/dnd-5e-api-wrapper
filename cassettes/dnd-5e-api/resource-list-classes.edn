@@ -7,7 +7,7 @@
                     "Connection" "close",
                     "Content-Length" "785",
                     "Content-Type" "application/json; charset=utf-8",
-                    "Date" "Sun, 05 Aug 2018 23:56:32 GMT",
+                    "Date" "Mon, 06 Aug 2018 02:55:02 GMT",
                     "Etag" "W/\"311-d0B+PoxvwmqzO+AV2x/i2A\"",
                     "Server" "Cowboy",
                     "Via" "1.1 vegur",
@@ -17,9 +17,9 @@
                    :protocol-version {:major 1, :minor 1, :name "HTTP"},
                    :reason-phrase "OK",
                    :repeatable? false,
-                   :request-time 141,
+                   :request-time 137,
                    :status 200,
                    :streaming? true,
                    :trace-redirects []},
           :var-name "clj-http.client/get"}],
- :recorded-at #inst "2018-08-05T23:56:32.036-00:00"}
+ :recorded-at #inst "2018-08-06T02:55:02.659-00:00"}

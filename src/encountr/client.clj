@@ -1,14 +1,20 @@
 (ns encountr.client
   (:require [clj-http.client :as client]
+            [cemerick.url :as url]
             [cheshire.core :as cheshire]))
 
-(def base-url "http://www.dnd5eapi.co/api/")
+(def ^:private base-url "http://www.dnd5eapi.co/api/")
+
+(defn- build-url
+  [path]
+  (apply (partial url/url base-url) path))
 
 (defn api-call
-  ([path & {:keys [params method] :or {method :GET}}]
+  ([& {:keys [path params method] :or {method :GET}}]
    (condp = method
-     :GET (-> base-url
-              (str path)
+     :GET (-> path
+              build-url
+              str
               (client/get (when params {:query-params params}))
               :body
               (cheshire/parse-string true)))))
