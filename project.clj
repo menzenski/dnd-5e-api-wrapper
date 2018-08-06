@@ -7,4 +7,6 @@
                  [clj-http "3.9.1"]
                  [com.cemerick/url "0.1.1"]
                  [cheshire "5.8.0"]
-                 [com.gfredericks/vcr-clj "0.4.16"]])
+                 [com.gfredericks/vcr-clj "0.4.16"]]
+  :deploy-repositories [["releases" :clojars]
+                        ["snapshots" :clojars]])
