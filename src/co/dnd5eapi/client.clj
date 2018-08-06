@@ -1,11 +1,11 @@
-(ns encountr.client
+(ns co.dnd5eapi.client
   (:require [clj-http.client :as client]
             [cemerick.url :as url]
             [cheshire.core :as cheshire]))
 
-(def ^:private base-url "http://www.dnd5eapi.co/api/")
+(def base-url "http://www.dnd5eapi.co/api/")
 
-(defn- build-url
+(defn build-url
   [path]
   (apply (partial url/url base-url) path))
 

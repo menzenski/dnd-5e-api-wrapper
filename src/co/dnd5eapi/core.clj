@@ -1,5 +1,5 @@
-(ns encountr.core
-  (:require [encountr.client :as client])
+(ns co.dnd5eapi.core
+  (:require [co.dnd5eapi.client :as client])
   (:refer-clojure :exclude [get]))
 
 (defn get

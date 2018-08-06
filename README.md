@@ -1,4 +1,4 @@
-# encountr
+# D&D 5E API Wrapper
 
 [![Build Status](https://travis-ci.org/menzenski/encountr.svg?branch=develop)](https://travis-ci.org/menzenski/encountr) [![license](https://img.shields.io/github/license/menzenski/encountr.svg?style=flat)](https://github.com/menzenski/encountr/blob/develop/LICENSE.md)
 
