@@ -1,4 +1,4 @@
-(defproject dnd5eapi "0.1.0"
+(defproject dnd5eapi "0.1.1-SNAPSHOT"
   :description "A wrapper for the D&D 5E API ( http://www.dnd5eapi.co/ )"
   :url "https://github.com/menzenski/dnd-5e-api-wrapper"
   :license {:name "Eclipse Public License"
@@ -7,6 +7,4 @@
                  [clj-http "3.9.1"]
                  [com.cemerick/url "0.1.1"]
                  [cheshire "5.8.0"]
-                 [com.gfredericks/vcr-clj "0.4.16"]]
-  :deploy-repositories [["releases"  {:sign-releases false :url "https://clojars.org/repo"}]
-                        ["snapshots" {:sign-releases false :url "https://clojars.org/repo"}]])
+                 [com.gfredericks/vcr-clj "0.4.16"]])
